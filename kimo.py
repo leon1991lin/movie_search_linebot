@@ -85,7 +85,7 @@ if __name__ == "__main__":
     conn = pymysql.Connect(host='localhost',
                             port=3306,
                             user='root',
-                            passwd='ian1991',
+                            passwd='',
                             db='TFB103d_azure',
                             charset='utf8')
     cur = conn.cursor()
